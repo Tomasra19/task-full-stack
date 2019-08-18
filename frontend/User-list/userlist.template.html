@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="/User-list/style.css" />     
+
+
+            <div class="mainBox">
+                <div class="innerBox-st"> 
+                    <section id="section">
+                        <div class="for-line-st">
+                            <div class="col" style="text-align: center;">Name</div>
+                            <div class="col" style="text-align: center;">Username</div>
+                            <div class="col" style="text-align: center;">Email</div>
+        
+                        </div>
+                  
+                    <li ng-repeat= "x in $ctrl.data track by $index" class="test-element-box">
+                    <div class="col" style="text-align: center;">{{x.name}}</div>
+                    <div class="col" style="text-align: center;">{{x.username}}</div>
+                    <div class="col" style="text-align: center;">{{x.email}}</div>
+                        <div class="icon-box">
+                            <i class="far fa-eye fa-lg" ng-click="$ctrl.getUser(x.id)"></i>
+                            <i class="fas fa-pen fa-lg" ng-click="$ctrl.edit(x.id)" ></i>
+                            <i class="far fa-trash-alt fa-lg" ng-click="$ctrl.deleteUser(x.id)"></i>
+                        </div>
+                    </li>
+                
+                    </section> 
+                </div>
+   
+            </div>

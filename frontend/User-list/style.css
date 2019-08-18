@@ -1,0 +1,138 @@
+
+
+
+
+.mainBox {
+    width: 60%;
+    min-height: 80%;
+   
+    margin-left: 350px;
+  
+}
+
+.innerBox {
+    padding: 27px;   
+    padding-top: 0;
+    background-color: #FFFFFF; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.innerBoxHeader {
+    padding: 20px;   
+    background-color: #1761AB; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.test-element-box {
+    display: flex;
+    justify-content: space-between;
+
+    list-style-type: none;
+
+    border-bottom: 1px solid #D3D9E0;
+}
+
+.title-box {
+
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: normal;
+    width: 87%;
+    color: #6C6C6C;
+}
+
+.icon-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F6F7F9;    
+    width: 150px;
+    color: #1761AB;
+    
+}
+
+.icon-box i {
+    cursor: pointer;
+}
+
+.fa-trash-alt:hover {
+    color: red;
+}
+
+.fa-eye:hover, .fa-pen:hover {
+    color:#264bec;
+}
+
+
+.title-box, .icon-box  {
+    padding: 10px;
+}
+
+
+
+
+
+
+
+.innerBox-st {
+    display: flex;
+    justify-content: space-between;
+    padding: 27px;   
+    background-color: #FFFFFF; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    margin: auto;
+}
+
+
+
+
+
+#section {
+    display: table;
+    width: 100%;
+}
+  
+#section > * {
+    display: table-row;
+
+}
+  
+#section .col {
+    display: table-cell;
+
+}
+
+.row-st .col{
+    padding:  10px 0px;
+    padding-left: 2px;
+    border-bottom: 1px solid #1761AB;
+}
+
+.row-st:hover{
+    cursor: pointer;
+    background: #aaaaaa;
+    color: #FFFFFF; 
+}
+
+.row-st {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.for-line-st {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.for-line-st .col {
+    font-weight: bold;
+    border-bottom: 2px solid #1761AB;
+}
