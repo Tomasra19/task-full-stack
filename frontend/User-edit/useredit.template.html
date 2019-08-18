@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="/User-edit/style.css" /> 
+
+
+
+ <div class="mainBox">
+     <div class="innerBox info">             
+         <span style="font-weight: bold;">Name:  </span> <input type="text" ng-model="$ctrl.name">
+         <br>
+         <span style="font-weight: bold;">Username:  </span><input type="text" ng-model="$ctrl.username"> 
+         <br>
+         <span style="font-weight: bold;">Email:  </span><input type="text" ng-model="$ctrl.email"> 
+         <br>
+         <span style="font-weight: bold;">Phone:  </span> <input type="text" ng-model="$ctrl.phone">
+         <br>
+         <span style="font-weight: bold;">Website:  </span><input type="text" ng-model="$ctrl.website"> 
+         <hr>
+         <span> <b>Address Info: </b> </span>
+        <br>
+        <span> <b>Street: </b><input type="text" ng-model="$ctrl.street"> 
+             <b style="margin-left: 50px;">Suite: </b> <input type="text" ng-model="$ctrl.suite">
+             <b style="margin-left: 50px;">City: </b><input type="text" ng-model="$ctrl.city"> 
+             <b style="margin-left: 50px;">Zipcode: </b><input type="text" ng-model="$ctrl.zipcode">
+             <br>
+             <b>Lat: </b><input type="text" ng-model="$ctrl.lat"> 
+             <b style="margin-left: 50px;">Lng: </b> <input type="text" ng-model= "$ctrl.lng">
+            </span>
+            <hr>
+            <span> <b>Company Info: </b> </span>
+            <br>
+            <span> <b>Name: </b><input type="text" ng-model="$ctrl.companyName">
+                <b style="margin-left: 50px;">catchPhrase: </b><input type="text" ng-model="$ctrl.catchPhrase"> 
+                <b style="margin-left: 50px;">Bs: </b><input type="text" ng-model="$ctrl.bs"> 
+               </span>
+        </div>
+     
+        <button type="submit" class="btn2" ng-click='$ctrl.submit()'>Update</button>
+ </div>
+
+
+
+
+
+
+        
+        
+        
+    

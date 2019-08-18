@@ -1,0 +1,131 @@
+/* oswald-regular - latin */
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/oswald-v17-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Oswald Regular'), local('Oswald-Regular'),
+         url('../fonts/oswald-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/oswald-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/oswald-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/oswald-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/oswald-v17-latin-regular.svg#Oswald') format('svg'); /* Legacy iOS */
+  }
+
+.navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100px;
+   
+    
+   
+}
+
+.link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    height: 52px;
+    width: 20%;
+    background-color: #F4F8FF;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: normal;
+
+    color: #1761AB;
+    margin-top: 5px;
+}
+
+.link:hover {
+    background-color: rgb(213, 227, 252);
+}
+
+.link i {
+    margin-left: 39px;
+    margin-right: 30px;
+}
+.centerBtn2 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn2 {
+    width: 165px;
+    height: 50px;
+
+    border: 0;
+    background: #1761AB;
+    border-radius: 50px;
+
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    outline-style: none;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.7s;
+    margin: 40px;
+    outline: none;
+}
+
+.btn2:hover {
+    background-color: rgb(0, 128, 255);
+    cursor: pointer;
+    outline: none;
+}
+
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+@media only screen and (min-width: 1212px) and (max-width: 1590px) {
+    .navAvatar {
+        flex-direction: column;
+        height: 200px;
+        margin: 0;
+    }
+    .link i {
+        margin-left: 29px;
+        margin-right: 20px;
+    }
+    .linkLogoff i {
+        margin-left: 29px;
+        margin-right: 20px;
+    }
+    .navLinks {
+        margin: 0;
+    }
+    .displayBlock {
+        display: inline;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 421px) and (max-width: 1211px) {
+    #col1 {
+        display: none;
+    }
+}
+
+/* Mobile styles*/
+@media only screen and (max-width: 420px) {
+    #col1 {
+        display: none;
+    }
+}
